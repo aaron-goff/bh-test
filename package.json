@@ -1,0 +1,20 @@
+{
+  "name": "bh-testproject",
+  "version": "1.0.0",
+  "description": "Test project in Playwright, for Sleepio Onboarding",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && npx install playwright",
+    "test": "npx playwright test",
+    "test-all": "npx playwright test --browser=all",
+    "test-chromium": "npx playwright test --browser=chromium",
+    "test-firefox": "npx playwright test --browser=firefox",
+    "test-webkit": "npx playwright test --browser=webkit"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.13.0",
+    "typescript": "^4.3.5"
+  }
+}
